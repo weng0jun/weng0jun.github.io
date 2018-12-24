@@ -79,7 +79,7 @@ Bigtable建立在GFS和Chubby两个基础组件之上。GFS是Google的分布式
 > One lesson we learned is that large distributed systems are vulnerable to many types of failures, not just
 the standard network partitions and fail-stop failures assumed in many distributed protocols.
 
-* 不要随意引入新功能。深以为然，引入任何性的功能都会对系统的简洁性构成威胁，所以在没有搞清楚该功能的本质需求之前不要急着coding。对于这类功能最好的策略就是拖延。
+* 不要随意引入新功能。深以为然，引入任何新的功能都会对系统的简洁性构成威胁，所以在没有搞清楚该功能的本质需求之前不要急着coding。对于这类功能最好的策略就是拖延。
 
 > Another lesson we learned is that it is important to delay adding new features until it is clear how the new
 features will be used.
