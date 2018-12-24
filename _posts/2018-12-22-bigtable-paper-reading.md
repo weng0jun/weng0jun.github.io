@@ -69,6 +69,7 @@ Bigtable建立在GFS和Chubby两个基础组件之上。GFS是Google的分布式
 * 连续读
 * 连续写
 * scans
+
 下面是实验结果：
 <img width="" height="" src="/images/bigtable-performance-test-result.png"/>
 
