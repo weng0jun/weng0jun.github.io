@@ -29,4 +29,4 @@ title: "Software Arch Patterns"
 > If you find you need to orchestrate your service components from within the user interface or API layer of the application, then chances are your service components are too fine-grained. Similarly, if you find you need to perform interservice communication between service components to process a single request, chances are your service components are either too fine-grained or they are not partitioned correctly from a business functionality standpoint.
 
 ## 引用
-
+[The top 5 software architecture patterns: How to make the right choice](https://techbeacon.com/top-5-software-architecture-patterns-how-make-right-choice)
