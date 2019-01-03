@@ -22,6 +22,7 @@ title: "Software Arch Patterns"
 > Testability Rating: Low Analysis: While individual unit testing is not overly difficult, it does require some sort of specialized testing client or testing tool to generate events. Testing is also complicated by the asynchronous nature of this pattern.
 
 ## Microservice Architecture
+> Software can be like a baby elephant: It is cute and fun when it’s little, but once it gets big, it is difficult to steer and resistant to change. The microservice architecture is designed to help developers avoid letting their babies grow up to be unwieldy, monolithic, and inflexible.
 
 > Designing the right level of service component granularity is one of the biggest challenges within a microservices architecture.
 
