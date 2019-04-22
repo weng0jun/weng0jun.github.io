@@ -41,7 +41,9 @@ http://api.example.com/cart-management/users/{id}/carts
 http://api.example.com/song-management/users/{id}/playlists
 ```
 
-Controller 是唯一一类使用动词描述的 Resource，Controller 是对过程性的概念进行建模。以下几个例子说明 Controller 的使用场景：
+Controller 是唯一一类使用动词描述的 Resource，Controller 是对过程性的概念进行建模。以下几个例子说明 Controller 的使用场景。
+
+* Controller举例：
 
 ```
 http://api.example.com/cart-management/users/{id}/cart/checkout
