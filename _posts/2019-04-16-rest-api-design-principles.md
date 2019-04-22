@@ -3,7 +3,7 @@ layout: post
 title: "Rest API 设计要领"
 ---
 
-REST (REpresentational State Transfer) 是一种面向分布式超媒体系统（Distributed Hypermedia Systems）架构思想/风格，最早由 Roy Fielding 于2000年在他的博士论文中提出。这种架构方法的核心思想是把所有信息都抽象成 Resource ，然后用一组 Resource Methods 实现 Resource 状态的转移。采用REST方法进行架构设计的6个指导原则是：
+REST (Representational State Transfer) 是一种面向分布式超媒体系统（Distributed Hypermedia Systems）的架构思想/风格，最早由 Roy Fielding 于2000年在他的博士论文中提出。这种架构方法的核心思想是把所有信息都抽象成 Resource ，然后用一组 Resource Methods 实现 Resource 状态的转移。采用REST方法进行架构设计的6个指导原则是：
 
 * Client–server
 * Stateless
@@ -66,7 +66,7 @@ Resource Methods 是一组改变 Resource 状态的方法，最常使用的是 H
 
 ## 结语
 
-设计一组好的 REST API 是作为一个架构师/后端程序员的基本功。提升自己的 API 设计能力一方面要多参考好的 API 设计，比如 [GitHub API](https://developer.github.com/v3/)就是非常优秀的 REST API。另一方面，可以阅读别人在这方面的经验总结，Designing Web APIs Building APIs That Developers Love 就是一本很不错的参考书。当然，要真正掌握这门技能是要多思考、多设计、多实践。
+设计一组好的 REST API 是作为一个架构师/后端程序员的基本功。提升自己的 API 设计能力一方面要多参考好的 API 设计，比如 [GitHub API](https://developer.github.com/v3/)就是非常优秀的 REST API。另一方面，可以阅读别人在这方面的经验总结，**"Designing Web APIs Building APIs That Developers Love"** 就是一本很不错的参考书。当然，要真正掌握这门技能还是要多思考、多设计、多实践。
 
 ## 引用
 [1] [What is REST](https://restfulapi.net/)
