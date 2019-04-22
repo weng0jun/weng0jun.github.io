@@ -48,7 +48,6 @@ Controller 是唯一一类使用动词描述的 Resource，Controller 是对过�
 ```
 http://api.example.com/cart-management/users/{id}/cart/checkout
 http://api.example.com/song-management/users/{id}/playlist/play
-
 ```
 
 ## Resource Methods
