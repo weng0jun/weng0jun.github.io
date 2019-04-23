@@ -9,7 +9,11 @@ title: "PostgreSQL 使用手册"
 ```
 brew install postgresql
 ```
-
+## 启动PostgreSQL Server
+在命令行执行以下命令：
+```
+pg_ctl -D /usr/local/var/postgres start
+```
 ## 常用命令
 * createdb [DB NAME] 创建数据库
 * dropdb [DB NAME] 删除数据库
