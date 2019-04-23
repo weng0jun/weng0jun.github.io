@@ -9,12 +9,15 @@ title: "PostgreSQL 使用手册"
 ```
 brew install postgresql
 ```
-## 启动PostgreSQL Server
+PostgreSQL安装过程会自动创建一个叫**postgres**的用户，该用户拥有超级管理员权限。
+## 启动PostgreSQL 服务器 
 在命令行执行以下命令：
 ```
 pg_ctl -D /usr/local/var/postgres start
 ```
-## 常用命令
+## PostgreSQL 客户端工具
+PostgreSQL 自带很多客户端工具，包括**createuser**，**createdb**和**psql**，其中psql最为常用。
+### 常用命令
 * createdb [DB NAME] 创建数据库
 * dropdb [DB NAME] 删除数据库
 * createuser [USER NAME] 创建用户
