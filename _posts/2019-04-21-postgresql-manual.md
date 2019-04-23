@@ -29,3 +29,5 @@ PostgreSQL 自带很多客户端工具，包括**createuser**，**createdb**和*
 * psql \q 离开psql
 
 ## 引用
+
+[1] [Creating user, database and adding access on PostgreSQL](https://medium.com/coding-blocks/creating-user-database-and-adding-access-on-postgresql-8bfcd2f4a91e)
