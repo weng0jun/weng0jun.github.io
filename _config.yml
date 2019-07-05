@@ -1,2 +1,4 @@
 name: Linjun Weng
 markdown: kramdown
+
+theme: jekyll-theme-cayman
