@@ -21,16 +21,27 @@ title: "微服务（Microservice）浅谈"
 
 那么微服务架构是否能够解决上述缺点? 目前关于微服务架构的优点大家提的最多的就是：
 
-* 解耦。
+* 松耦合。
 
 * 独立开发部署。
 
 * 分布式。
 
+* 持续集成。
+
+* 易测试。
+
+* 性能差。
+
 前两点从栗子云的实践看以上两点都被否定了。分析其原因，首先服务的边界不等于架构的边界，如果组件划分不合理，虽然在形式上各个服务是相互隔离的，但本质山还是高度耦合的。某个对象增加某个属性，会导致一组接口和服务需要修改，而且修改的成本甚至比单体架构还要高。所以，优秀的架构不在于是采用微服务还是单体架构，而在于组件划分是否合理，边界定义是否清晰。另外，在拆分服务的时候，粒度的把握是关键，微服务这个名字很有误导性，很多人以为微服务就是把服务拆的越细越好。比较合理的方式是一开始服务越少越好，并在项目迭代的过程中随着对场景需求认知的逐渐加深，再基于CCP、CRP和REP三条原则将一部分功能模块抽成独立的服务。如果一开始就把服务拆得过细，必然导致灾难，栗子云就是一个最好的例子。
 
 >Designing the right level of service component granularity is one of the biggest challenges within a microservices architecture.
 
-先写到这里，之后在实践中有新的体会再慢慢更新。
+关于选用微服务架构目前想到两点注意事项：
 
+* 一开始不要把服务拆得过细。
+
+* 事务性服务不适合采用微服务。
+
+>If you find you need to orchestrate your service components from within the user interface or API layer of the application, then chan‐ ces are your service components are too fine-grained. Similarly, if you find you need to perform inter-service communication between service components to process a single request, chances are your service components are either too fine-grained or they are not parti‐ tioned correctly from a business functionality standpoint.
 
